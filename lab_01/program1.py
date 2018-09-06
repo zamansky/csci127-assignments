@@ -5,6 +5,11 @@ def greeter(name):
 def repeat_string(word):
     return word+word
 
-print(greeter("Stan"))
-print(greeter("Ollie"))
-print(repeat_string("hello"))
+def hello_name(name):
+  return "Hello "+name+"!"  
+
+def make_abba(a, b):
+  return a+b+b+a
+
+print(hello_name("Bob"))
+print(make_abba("hello","world"))
